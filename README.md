@@ -1,13 +1,13 @@
 # aws-image-moderation
  
 * Launch the cloudformation (cf.yaml)
-* Create two S3 bucket : UNIQUE_NAME_images, UNIQUE_NAME_web
+* Create two S3 buckets : UNIQUE_NAME_images, UNIQUE_NAME_web
   * Make both of buckets public
-  * Paste the CORS configuration for UNIQUE_NAME_images
+  * Paste the CORS configuration (below) for UNIQUE_NAME_images
   * Upload all the file in the resource folder (drag and drop) and enable public access
 * Create Lambda 
   * Copy and paste the code from lambda_function.py (python 3.7)
-  * Add policy for S3, DynamoDB and Rekognition
+  * Add policies for S3, DynamoDB and Rekognition
 * Create Cognito (+add policy for S3)
 
 
