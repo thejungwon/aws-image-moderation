@@ -1,5 +1,6 @@
 # aws-image-moderation
- 
+![alt text](https://github.com/thejungwon/aws-image-moderation/blob/master/architecture.png "Logo Title Text 1")
+
 * Launch the cloudformation (cf.yaml)
 * Create two S3 buckets : UNIQUE_NAME_images, UNIQUE_NAME_web
   * Make both of buckets public
