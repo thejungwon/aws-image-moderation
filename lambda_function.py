@@ -10,7 +10,7 @@ import urllib.parse
 rekognition = boto3.client('rekognition')
 dynamodb    = boto3.client('dynamodb')
 s3          = boto3.resource('s3')
-TABLE_NAME     = "YOUR_DYNAMO_TABLE_NAME"
+TABLE_NAME     = "image_table"
 def moderate_image(bucket, key):
 
     client=boto3.client('rekognition')
